@@ -18,7 +18,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:textSize="32sp"
-        android:text="Enter you name, please" />
+        android:text="@string/output_view_initial_text" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
             android:layout_weight="4"
             android:inputType="textPersonName"
             android:textSize="32sp"
-            android:hint="Name" />
+            android:hint="@string/input_name_hint" />
 
         <Button
             android:id="@+id/ok_button"
@@ -40,7 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="32sp"
-            android:text="OK"/>
+            android:text="@string/ok_button_label"
+            android:onClick="greet"/>
 
 
     </LinearLayout>
